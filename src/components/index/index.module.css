@@ -1,0 +1,36 @@
+.herobackground{
+    background-image: url(/hero_prueba.png);
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ctabutton{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.ctabutton > button{
+    box-shadow: black 10px 10px;
+}
+
+.livegame{
+    height: 130px;
+    width: 230px;
+    border: 1px solid var(--secondary-color);
+    min-width: 230px;
+}
+
+.blueside{
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.redside{
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}

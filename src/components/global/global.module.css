@@ -1,0 +1,12 @@
+.crown_of_thorns{
+    top: -10px;
+    right: -10px;
+    height: 20px;
+    width: 20px;
+    transform: rotate(-15deg);
+}
+
+.popup{
+    left: 15px;
+    top: 100px;
+}

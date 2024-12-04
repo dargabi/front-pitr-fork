@@ -1,0 +1,22 @@
+/* shared styles for the register and login page */
+
+.bglogin{
+    background-image: url(/soulfighter_sett.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bgregister{
+    background-image: url(/soulfighter_yasuo.jpeg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.container{
+    height: auto;
+    width: auto;
+}
